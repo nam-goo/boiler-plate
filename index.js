@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 5000;
 const mongoose = require('mongoose');
-
+//몽구스
 mongoose
   .connect(
     'mongodb+srv://namgoo:abcd1234@boilerplate.7tlvd.mongodb.net/<dbname>?retryWrites=true&w=majority',
